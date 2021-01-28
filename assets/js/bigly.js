@@ -13,7 +13,7 @@ function updateBigly() {
             if (LETTERS.indexOf(letter) < 0) continue;
             final_str += ":regional_indicator_" + letter + ": ";
         }
-        final_str += "  ";
+        final_str += "      ";
     }
     bigly.value = final_str;
 }
