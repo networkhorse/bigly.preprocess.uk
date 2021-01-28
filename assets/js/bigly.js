@@ -10,7 +10,7 @@ function updateBigly() {
         var word = words[wordIdx];
         for (var letterIdx in word) {
             var letter = word[letterIdx].toLowerCase();
-            if (LETTERS.indexOf(letter) <= 0) continue;
+            if (LETTERS.indexOf(letter) < 0) continue;
             final_str += ":regional_indicator_" + letter + ": ";
         }
         final_str += "  ";
