@@ -15,7 +15,7 @@ function updateBigly() {
         }
         final_str += "      ";
     }
-    bigly.value = final_str;
+    bigly.value = final_str.trim();
 }
 
 input.addEventListener("keyup", updateBigly);
